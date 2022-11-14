@@ -1,0 +1,10 @@
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "userid":106,
+    "userName":"AjayRahul"
+}
+
+###
+GET http://localhost:8080/users
